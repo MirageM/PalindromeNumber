@@ -1,6 +1,6 @@
 public class isPalindromeRedo{
 	public static boolean isPalindrome(int x){
-		if(x  > 0){
+		if(x  < 0){
 			return false;
 		}
 		long reversed = 0;
